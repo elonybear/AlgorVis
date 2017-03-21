@@ -1,0 +1,10 @@
+{
+  bs": [
+    "browser",
+    "underscore",
+    "jquery"
+  ],
+  "plugins": {
+    "node": {}
+  }
+}
