@@ -1,0 +1,86 @@
+{
+  "selectedTopic": {
+    "name": ""
+  },
+  "expandedGroups": { "Object Oriented Programming": 1 },
+  "availableGroups": [
+    {
+      "name": "Object Oriented Programming",
+      "topics": [
+        {
+          "name": "Inheritance"
+        },
+        {
+          "name": "Abstract Data Types"
+        },
+        {
+          "name": "MVC"
+        }
+      ]
+    },
+    {
+      "name": "Data Structures",
+      "topics": [
+        {
+          "name": "Linked List"
+        },
+        {
+          "name": "Stack"
+        },
+        {
+          "name": "Queue"
+        },
+        {
+          "name": "Tree"
+        },
+        {
+          "name": "Heap"
+        },
+        {
+          "name": "Graphs"
+        }
+      ]
+    },
+    {
+      "name": "Algorithms",
+      "topics": [
+        {
+          "name": "Search"
+        },
+        {
+          "name": "Sort"
+        },
+        {
+          "name": "Graph Theory"
+        },
+        {
+          "name": "Dynamic Programming"
+        },
+        {
+          "name": "Recursion"
+        }
+      ]
+    },
+    {
+      "name": "Computer Security",
+      "topics": []
+    },
+    {
+      "name": "Operating Systems",
+      "topics": []
+
+    },
+    {
+      "name": "The Web",
+      "topics": [
+        {
+          "name": "IP/TCP"
+        },
+        {
+          "name": "The Standard HTTP Request"
+        }
+      ]
+
+    }
+  ]
+}

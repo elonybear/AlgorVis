@@ -2,11 +2,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import {Provider} from 'react-redux';
+
 //vendors
 import 'bootstrap';
-import './js/vendors/jquery-ui.min.js';
+
+//Components
+import Base from './components/Base';
+
+import configureStore from './store/configureStore';
+
+const store = configureStore(require('./store/defaultStore.json'));
 
 ReactDOM.render(
-  <div>Hello World</div>,
+  <Provider store={store}>
+    <Base />
+  </Provider>,
   document.getElementById('root')
 );
