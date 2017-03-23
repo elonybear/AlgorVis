@@ -11,7 +11,9 @@ import {setSelectedTopic} from '../../actions/selectedTopic';
 import {ACTION_ENUMS} from '../../utilities';
 
 function mapStateToProps (state) {
-  return {}
+  return {
+    selectedTopic: state.selectedTopic
+  }
 }
 
 function mapDispatchToProps (dispatch) {

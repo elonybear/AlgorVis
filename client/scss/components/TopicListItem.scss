@@ -1,9 +1,23 @@
-.topic-list-item-p {
+.topic-list-item {
+  position: relative;
+  overflow:hidden;
   border-right:1px solid #dedede;
   border-left:1px solid #dedede;
   border-bottom:1px solid #dedede;
+  &:hover {
+    color:black;
+    cursor:pointer;
+  }
 }
 
-.topic-list-item-p-last {
+.topic-list-item-last {
   border-radius:0 0 8px 8px; 
+}
+
+.inactive-topic-list-item {
+  color:gray;
+}
+
+.active-topic-list-item {
+  color:black;
 }

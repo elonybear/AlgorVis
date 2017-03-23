@@ -8,6 +8,14 @@
   border-right: 1px solid #e2e2ff;
   border-left: 1px solid #e2e2ff;
   border-bottom:1px solid #e2e2ff;
+  color: #1c75c5;
+
+  transition: color .2s;
+
+  &:hover {
+    color:blue;
+    cursor:pointer;
+  }
 }
 
 .topic-group-p-first {
