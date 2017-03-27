@@ -22,7 +22,17 @@
       "name": "Data Structures",
       "topics": [
         {
-          "name": "Linked List"
+          "name": "Linked List",
+          "concepts": [{
+            "name": "Singly-linked List",
+            "nodes": [4, 5, 3, 2]
+          }, {
+            "name": "Doubly-linked List",
+            "nodes": [4, 5, 3, 2]
+          }, {
+            "name": "Circular List",
+            "nodes": [4, 5, 3, 2]
+          }]
         },
         {
           "name": "Stack"

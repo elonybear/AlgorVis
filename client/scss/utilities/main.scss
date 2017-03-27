@@ -2,5 +2,12 @@
 @import 'padding';
 @import 'margin';
 @import 'font';
-@import 'display'
+@import 'display';
+@import 'height';
+@import 'width';
 
+html, body {
+  height:100%;
+  min-height:100%;
+  overflow:hidden;
+}

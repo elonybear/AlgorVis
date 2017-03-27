@@ -30,7 +30,7 @@ export default class TopicListItem extends React.Component {
 
   render () {
 
-    let liClasses = "no-list-style m-none p-xlg topic-list-item";
+    let liClasses = "no-list-style m-none p-lg topic-list-item";
 
     if (this.props.empty) {
       return (
@@ -42,8 +42,8 @@ export default class TopicListItem extends React.Component {
       );
     }
 
-    liClasses += (this.props.last ? " topic-list-item-last" : "")
-      + (this.props.topic.name == this.props.selectedTopic.name ? " active-topic-list-item" : " inactive-topic-list-item");
+    liClasses += (this.props.topic.name == this.props.selectedTopic.name ? 
+                    " active-topic-list-item" : " inactive-topic-list-item");
 
 
     return (
