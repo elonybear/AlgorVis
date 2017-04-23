@@ -18,8 +18,8 @@ function mapStateToProps (state) {
 
 function mapDispatchToProps (dispatch) {
   return {
-    setSelectedTopic: (topic) => {
-      dispatch(setSelectedTopic(topic))
+    setSelectedTopic: (data) => {
+      dispatch(setSelectedTopic(data))
     }
   }
 }

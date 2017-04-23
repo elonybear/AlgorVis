@@ -1,0 +1,28 @@
+.list-node {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 20px;
+}
+
+.list-node.green {
+  border: 1px solid #b4e8b4;
+  color: #30d030;
+}
+
+.list-node.blue {
+  border: 1px solid #98ebff;
+  color: #30b0d0;
+}
+
+.list-node.purple {
+  border: 1px solid #e298ff;
+  color: #b330d0;
+}
+
+.list-node.red {
+  border: 1px solid #ff9898;
+  color: #d03030;
+}

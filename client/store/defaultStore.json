@@ -1,6 +1,7 @@
 {
   "selectedTopic": {
-    "name": ""
+    "name": "",
+    "display": null
   },
   "expandedGroups": {},
   "availableGroups": [

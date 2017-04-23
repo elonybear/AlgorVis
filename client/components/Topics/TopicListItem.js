@@ -1,7 +1,7 @@
 import React from 'react';
 
 //SCSS
-import '../../scss/components/TopicListItem.scss';
+import '../../scss/components/Topics/TopicListItem.scss';
 
 //CSS
 import "../../css/effects/ripple.css";
@@ -12,20 +12,16 @@ export default class TopicListItem extends React.Component {
     super(props);
 
     this.state = {
-      clicked: false
+      payload: {
+        topic: this.props.topic,
+        display: this.props.display
+      }
     }
-
   }
 
   handleTopicClick (event) {
     event.stopPropagation();
-    if(this.state.clicked) return;
-    this.props.setSelectedTopic(this.props.topic);
-    ripple(event.target, event);
-    this.setState({clicked: true});
-    setTimeout(() => {
-      this.setState({clicked: false}); 
-    }, 1000);
+    this.props.setSelectedTopic(this.state.payload);
   }
 
   render () {

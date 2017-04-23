@@ -2,7 +2,7 @@ import React from 'react';
 
 import SmartTopicListItem from '../../containers/Topics/SmartTopicListItem';
 
-import '../../scss/components//TopicGroup.scss';
+import '../../scss/components/Topics/TopicGroup.scss';
 
 export default class TopicGroup extends React.Component {
   constructor (props) {
@@ -27,6 +27,7 @@ export default class TopicGroup extends React.Component {
           key={index} 
           topic={topic} 
           last={this.props.last && index == this.props.group.topics.length - 1}
+          display={this.props.displays[topic.name]}
         />
     );
   }
