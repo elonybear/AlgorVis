@@ -4,9 +4,6 @@ import ReactDOM from 'react-dom';
 
 import {Provider} from 'react-redux';
 
-//vendors
-import 'bootstrap';
-
 //Components
 import Base from './components/Base';
 
